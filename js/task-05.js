@@ -9,10 +9,3 @@ input.addEventListener('input', (evt) => {
     if  (title.textContent === "") title.innerHTML ="Anonymous";
     
 });
-
-// function handlerQuery(evt) {
-//     selectors.title.textContent = evt.currentTarget.value;
-//     if (evt.currentTarget.value === "false") {
-//      return title.textContent = Anonymous;
-//     }
-// }
