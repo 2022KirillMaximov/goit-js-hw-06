@@ -9,7 +9,10 @@ const valueEl = inputEl.value;
 
 const changeTextSize = () => {
 
-    textEl.style.fontSize = `${valueEl}px`;
+    textEl.style.fontSize =`${valueEl}px`;
 
+
+    console.log(valueEl)
+    console.log(textEl.style.fontSize)
 }
 inputEl.addEventListener('input', changeTextSize)

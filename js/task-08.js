@@ -10,6 +10,7 @@ function handlerSubmit(event) {
     if (!email.value || !password.value) {
 
         const message = 'insert all feld';
+        alert (message)
     }
     else { 
         const data = {
